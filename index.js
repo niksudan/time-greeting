@@ -3,10 +3,9 @@ const moment = require('moment');
 module.exports = () => {
   let time = 'morning';
   const currentHour = parseFloat(moment().format('HH'));
-  if (currentHour >= 12 && currentHour <= 17) {
+  if (currentHour >= 12 && currentHour < 18) {
     time = 'afternoon';
-  }
-  if (currentHour >= 17) {
+  } else if (currentHour >= 18) {
     time = 'evening';
   }
   return `Good ${time}`;
