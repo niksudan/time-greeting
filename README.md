@@ -7,6 +7,9 @@ Get a greeting based on the time of day
 ```js
 const timeGreeting = require('time-greeting');
 
-console.log(timeGreeting());
+timeGreeting();
 // Good morning
+
+timeGreeting('1970-01-01 21:00:00');
+// Good evening
 ```
