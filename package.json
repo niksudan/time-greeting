@@ -1,6 +1,6 @@
 {
   "name": "time-greeting",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get a greeting based on the time of day",
   "main": "index.js",
   "author": "Nik Sudan",
@@ -11,5 +11,6 @@
   },
   "dependencies": {
     "moment": "^2.18.1"
-  }
+  },
+  "keywords": ["time", "greeting", "message", "hello", "hi", "humanize"]
 }
